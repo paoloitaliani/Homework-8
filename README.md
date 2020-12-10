@@ -1,4 +1,4 @@
-# Homework-8
+# Homework 8
 Weekly assignment about dimension reduction for linear regression
 
 ## Exercise 1
