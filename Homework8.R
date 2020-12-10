@@ -3,6 +3,9 @@ library(glmnet)
 library(pls)
 library(knitr)
 
+##########################################Exercise 1######################################################
+
+
 ###########regsubsets
 LBP <- read.table("LBPnumerical.dat.txt",header=TRUE)
 
@@ -116,7 +119,7 @@ for (i in 1:foldnumber){
 }
 sqrlossmean<- sqrt(mean((yhat-cvdata$y)^2))
 
-########## Exercise 4 ############################################################
+########## Exercise 2 ############################################################
 cvdata=read.table("covidweeklygrowths.txt",header = T)
 cvdata <- cvdata[,5:170]
 varnames <- names(cvdata)[-1]
