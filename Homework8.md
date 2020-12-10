@@ -137,8 +137,7 @@ sqrlossmean<- sqrt(mean((yhat-cvdata$y)^2))
 |prediction error |     22.103| 21.662| 21.567| 25.526|
 
 ```
-## Warning in kable_markdown(x = structure(c("regsubsets", "LASSO", "PCR", : The
-## table should have a header (column names)
+
 ```
 
 
